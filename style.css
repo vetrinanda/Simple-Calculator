@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hwb(68 45% 2%);
+}
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(0, 0%, 10%);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+#display{
+width: 100%;
+padding: 20px;
+border: none;
+font-size: 5rem;
+text-align: left;
+color: white;
+background-color: hsl(0, 0%, 45%);
+}
+
+.keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 25px;
+
+}
+button{
+width: 100px;
+height: 100px;
+border-radius: 50px;
+border: none;
+background-color: hsl(0, 0%, 20%);
+color: rgb(254, 254, 254);
+font-size: 3rem;
+cursor:pointer ;
+font-weight: bold;
+}
+button:hover{
+    background-color: hsl(0, 0%, 30%);
+    font-size: 3.5rem;
+}
+button:active{
+    background-color: hsl(0, 0%, 40%);  
+}
+
+.opreator{
+    background-color: hsl(175, 100%, 40%);   
+}
+.opreator:hover{
+    background-color: hsl(175, 100%, 45%);
+}
+.opreator:active{
+    background-color: hsl(175, 100%, 50%);
+}
